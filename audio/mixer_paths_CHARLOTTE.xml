@@ -280,6 +280,7 @@
 	<path name="media-speaker" >
 		<path name="audio-play" />
 		<path name="speaker" />
+		<path name="earpiece" />
 	</path>
 
 	<path name="media-earpiece" >
@@ -1674,17 +1675,6 @@
 		<path name="earpiece" />
 	</path>
 
-	<path name="media-lowlatency-speaker" >
-		<path name="lowlatency-play" />
-		<path name="speaker" />
-	</path>
-
-	<path name="dup-media-lowlatency-speaker" >
-		<path name="audio-play" />
-		<path name="lowlatency-play" />
-		<path name="speaker" />
-	</path>
-
 	<path name="media-lowlatency-headphone" >
 		<path name="lowlatency-play" />
 		<path name="headphone" />
@@ -1708,13 +1698,13 @@
 		<path name="dup-media-lowlatency-headphone" />
 	</path>
 
-	<path name="media-lowlatency-speaker-earpiece" >
+	<path name="media-lowlatency-speaker" >
 		<path name="lowlatency-play" />
 		<path name="speaker" />
 		<path name="earpiece" />
 	</path>
 
-	<path name="dup-media-lowlatency-speaker-earpiece" >
+	<path name="dup-media-lowlatency-speaker" >
 		<path name="audio-play" />
 		<path name="lowlatency-play" />
 		<path name="speaker" />
