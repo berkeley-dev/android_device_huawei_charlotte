@@ -22,5 +22,13 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/mixer_paths_CHARLOTTE.xml:system/etc/mixer_paths_CHARLOTTE.xml
+
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Inherit from kirin970-common
 $(call inherit-product, device/huawei/kirin970-common/kirin970.mk)

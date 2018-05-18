@@ -1,0 +1,2 @@
+on init
+    mount none /system/etc/mixer_paths_CHARLOTTE.xml /odm/etc/audio/hi6403/mixer_paths_CHARLOTTE.xml bind
